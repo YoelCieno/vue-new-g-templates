@@ -4,25 +4,25 @@
 
 ### Install
 
-- VS Code 中搜索插件 `newVueComponent`
-- 插件市场 [查看](https://marketplace.visualstudio.com/items?itemName=wtto00.newVueComponent)
+- Quickly VS Code create `newVueComponent`
+- Plugin newVueComponent source in VS Code is (https://marketplace.visualstudio.com/items?itemName=wtto00.newVueComponent)
 
 ### Use
 
-在资源管理器中右键目录，选择 **创建 Vue 组件** ，输入组件名称，即可快速创建 Vue 组件
+Right-click the directory in the resource manager, select Create Vue Component , enter the component name, and you can quickly create a Vue component
 
 ### Settings
 
 | key                            | type    | values               | description                                   |
 | ------------------------------ | ------- | -------------------- | --------------------------------------------- |
-| newVueComponent.vue3           | boolean | true/false           | 是否使用 Vue3 版本                            |
-| newVueComponent.ts             | boolean | true/false           | 是否使用 typescript                           |
-| newVueComponent.scriptSeparate | boolean | true/false           | script 文件是否单独分离                       |
-| newVueComponent.scrpitSetup    | boolean | true/false           | 是否使用 script setup 模式(vue3=false 时无效) |
-| newVueComponent.style          | string  | css/scss/less/stylus | 选择 css 预处理语言                           |
-| newVueComponent.styleSeparate  | boolean | true/false           | style 文件是否单独分离                        |
-| newVueComponent.styleScoped    | boolean | true/false           | style 样式是否组件隔离                        |
-| newVueComponent.folder         | boolean | true/false           | 是否创建同名目录                              |
+| newVueComponent.vue3           | boolean | true/false           | To use Vue3 version                            |
+| newVueComponent.ts             | boolean | true/false           | To use typescripttypescript                           |
+| newVueComponent.scriptSeparate | boolean | true/false           | script files are separated                      |
+| newVueComponent.scrpitSetup    | boolean | true/false           | to use script setup mode (invalid when vue3=false) |
+| newVueComponent.style          | string  | css/scss/less/stylus | select css preprocessing language                           |
+| newVueComponent.styleSeparate  | boolean | true/false           | style files are separated separately                        |
+| newVueComponent.styleScoped    | boolean | true/false           | the style is component isolated                        |
+| newVueComponent.folder         | boolean | true/false           | to create a directory with the same name                              |
 
 ### Default Setting
 
